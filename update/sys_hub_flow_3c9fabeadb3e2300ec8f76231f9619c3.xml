@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>finance_request_flow</internal_name>
+        <label_cache>[{"name":"f79fde68-63b9-41cd-911e-38a3de1d4c30.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"f79fde68-63b9-41cd-911e-38a3de1d4c30.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"28d45a9f-4be4-4a1d-9785-328aae222d05.Table","label":"3.1➛Finance Task Table","reference":"x_snc_sales_fin_task","reference_display":"Finance Task","type":"table_name","base_type":"table_name"},{"name":"28d45a9f-4be4-4a1d-9785-328aae222d05.Record","label":"3.1➛Finance Task Record","reference":"x_snc_sales_fin_task","reference_display":"Finance Task","type":"reference","base_type":"reference"},{"name":"{{static.e0ffa32edb3e2300ec8f76231f96192b}}","label":"Finance Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"ead9288b-8dc6-42c7-84aa-60b6563c8d42.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"subflow.purchase_request","label":"Input➛Purchase request","type":"string","base_type":"string"},{"name":"subflow.ssn","label":"Input➛SSN","type":"string","base_type":"string"},{"name":"subflow.customer_name","label":"Input➛Customer name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.price","label":"Input➛Price","type":"string","base_type":"string"},{"name":"subflow.vehicle","label":"Input➛Vehicle","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"f7873f05-3276-44d9-8637-392738b09e56.table_name","label":"1➛Request Table","reference":"x_snc_sales_fin_request","reference_display":"Request","type":"table_name","base_type":"table_name"},{"name":"f7873f05-3276-44d9-8637-392738b09e56.record","label":"1➛Request Record","reference":"x_snc_sales_fin_request","reference_display":"Request","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>90c1b76edb3e2300ec8f76231f961916</latest_snapshot>
+        <master_snapshot>90c1b76edb3e2300ec8f76231f961916</master_snapshot>
+        <name>Finance Request Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:20:20</sys_created_on>
+        <sys_id>3c9fabeadb3e2300ec8f76231f9619c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Finance Request Flow</sys_name>
+        <sys_package display_value="Sales Finance" source="x_snc_sales_fin">983bafe6db3e2300ec8f76231f9619a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales Finance">983bafe6db3e2300ec8f76231f9619a2</sys_scope>
+        <sys_update_name>sys_hub_flow_3c9fabeadb3e2300ec8f76231f9619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 15:24:39</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c9fabeadb3e2300ec8f76231f9619c3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3c9fabeadb3e2300ec8f76231f9619c3"/>
+</record_update>

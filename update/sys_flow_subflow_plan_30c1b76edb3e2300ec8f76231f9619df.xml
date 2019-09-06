@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_subflow_plan">
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@966322</plan>
+        <plan_id display_value="Finance Request Flow">3c9fabeadb3e2300ec8f76231f9619c3</plan_id>
+        <snapshot>90c1b76edb3e2300ec8f76231f961916</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:54</sys_created_on>
+        <sys_id>30c1b76edb3e2300ec8f76231f9619df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3c9fabeadb3e2300ec8f76231f9619c3</sys_name>
+        <sys_package display_value="Sales Finance" source="x_snc_sales_fin">983bafe6db3e2300ec8f76231f9619a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales Finance">983bafe6db3e2300ec8f76231f9619a2</sys_scope>
+        <sys_update_name>sys_flow_subflow_plan_30c1b76edb3e2300ec8f76231f9619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 15:24:38</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

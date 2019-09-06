@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Finance Request Flow">3c9fabeadb3e2300ec8f76231f9619c3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:45</sys_created_on>
+        <sys_id>76b1376edb3e2300ec8f76231f9619f0</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sales Finance" source="x_snc_sales_fin">983bafe6db3e2300ec8f76231f9619a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales Finance">983bafe6db3e2300ec8f76231f9619a2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_76b1376edb3e2300ec8f76231f9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 15:24:39</sys_updated_on>
+        <ui_id>f7873f05-3276-44d9-8637-392738b09e56</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76b1376edb3e2300ec8f76231f9619f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76b1376edb3e2300ec8f76231f9619f0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:45</sys_created_on>
+        <sys_id>7ab1376edb3e2300ec8f76231f9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 23:29:45</sys_updated_on>
+        <value>x_snc_sales_fin_request</value>
+        <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76b1376edb3e2300ec8f76231f9619f0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:50</sys_created_on>
+        <sys_id>f3b1776edb3e2300ec8f76231f9619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 23:29:50</sys_updated_on>
+        <value>x_snc_sales_fin_request</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76b1376edb3e2300ec8f76231f9619f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>76b1376edb3e2300ec8f76231f9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:45</sys_created_on>
+        <sys_id>32b1376edb3e2300ec8f76231f9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 23:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>76b1376edb3e2300ec8f76231f9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:50</sys_created_on>
+        <sys_id>bfb1776edb3e2300ec8f76231f9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 23:29:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>76b1376edb3e2300ec8f76231f9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:45</sys_created_on>
+        <sys_id>f6b1376edb3e2300ec8f76231f9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-07 23:29:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>vehicle={{subflow.vehicle}}^price={{subflow.price}}^customer_name={{subflow.customer_name}}^ssn={{subflow.ssn}}^purchase_request={{subflow.purchase_request}}^assignment_group={"display":"Finance Analysts","value":"cf10f32edb3e2300ec8f76231f961996"}^short_description=Finance Request for Purchase Order  {{subflow.purchase_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>76b1376edb3e2300ec8f76231f9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-07 23:29:50</sys_created_on>
+        <sys_id>73b1776edb3e2300ec8f76231f9619d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 15:24:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>vehicle={{subflow.vehicle}}^price={{subflow.price}}^customer_name={{subflow.customer_name}}^ssn={{subflow.ssn}}^purchase_request={{subflow.purchase_request}}^assignment_group={"display":"Finance Analysts","value":"cf10f32edb3e2300ec8f76231f961996"}^short_description=Finance Request for {{subflow.customer_name}} | {{subflow.vehicle}}</value>
+    </sys_element_mapping>
+</record_update>

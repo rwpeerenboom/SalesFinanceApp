@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Request" max_length="40" name="x_snc_sales_fin_request" type="collection">
+        <element label="Customer name" max_length="100" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchase request" max_length="32" name="purchase_request" reference="task" type="reference"/>
+        <element label="SSN" max_length="40" name="ssn" type="string"/>
+        <element label="Vehicle" max_length="100" name="vehicle" type="string"/>
+    </element>
+</database>

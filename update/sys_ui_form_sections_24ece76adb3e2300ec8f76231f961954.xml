@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="24ece76adb3e2300ec8f76231f961954" sys_domain="global" table="x_snc_sales_fin_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-07 23:08:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74ece76adb3e2300ec8f76231f961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sales_fin_request" name="x_snc_sales_fin_request" sys_domain="global" view="Default view">24ece76adb3e2300ec8f76231f961954</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_sales_fin_request" sys_domain="global" view="Default view">0f9c236adb3e2300ec8f76231f96199e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-07 23:08:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-07 23:08:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30ece76adb3e2300ec8f76231f961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_sales_fin_request" name="x_snc_sales_fin_request" sys_domain="global" view="Default view">24ece76adb3e2300ec8f76231f961954</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_sales_fin_request" sys_domain="global" view="Default view">e4ece76adb3e2300ec8f76231f961953</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-07 23:08:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_sales_fin_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-07 23:08:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24ece76adb3e2300ec8f76231f961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_sales_fin_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales Finance" source="x_snc_sales_fin">983bafe6db3e2300ec8f76231f9619a2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales Finance">983bafe6db3e2300ec8f76231f9619a2</sys_scope>
+            <sys_update_name>sys_ui_form_sections_24ece76adb3e2300ec8f76231f961954</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-07 23:08:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
